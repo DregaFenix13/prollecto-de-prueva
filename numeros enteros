@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+ 
+ main()
+  {
+    unsigned V = ('a' > 'A');
+       cout << "('a' > 'A') = "  <<  V << endl << endl
+            << "Decimal:  250   " << oct << 250 << endl
+            << "Decimal:  250   " << oct << 250 << endl
+            << "Decimal:  57    " << oct << 57 << endl
+            << "Hexacimal:  0x140    " << oct << 0x140 << endl
+            << "Hexacimal:  0x219    " << oct << 0x219 << endl
+            << "Hexadecimal: 0x152    " << oct << 0x152 << endl;
+       cin.get();
+  }  
